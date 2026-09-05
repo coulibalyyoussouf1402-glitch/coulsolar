@@ -1,0 +1,136 @@
+
+*{
+
+}
+
+body{
+    margin:0 auto;
+}
+
+/* tete de page */
+
+header.header p{
+    color: white;
+    font-size: 18px;
+}
+/* ecriture de la page d'accueil */
+
+header.header {
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    
+}
+
+header.header img {
+    width: 150px;
+    height: auto;
+}
+
+
+section.accueil1{
+    background:url('../image/logo2.jpg');
+    Background-size: 100% 100%;
+    height: 110vh;
+    
+}
+section.accueil1 h1{
+    color: rgb(223, 12, 57);
+    font-size: 80px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+     height: auto;
+    justify-content: center;
+    justify-content:space-around;
+    font-family:algerian;
+
+
+}
+ 
+section.accueil1 h2{
+    color: rgb(26, 204, 10);
+    font-size: 40px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(20, 19, 20, 0.719);
+      height: auto;
+      justify-content: center;
+      font-family: algerian;
+}
+
+section.accueil1 h3{
+    color: rgb(255, 254, 254);
+    font-size: 30px;
+    margin-left: 80px;
+    align-items: center;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: algerian;
+}
+section.accueil1 h4{
+    color: rgb(255, 252, 252);
+    font-size: 18px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+      height: center;
+      
+}
+section.accueil1 p2{
+    color: rgb(219, 188, 10);
+    font-size: 18px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+      height: center;
+      font-family: bodoni mt;
+      
+}
+section.accueil1 p3{
+    color: rgb(228, 23, 23);
+    font-size: 18px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+      height: center;
+      font-family: arial back;
+}
+section.accueil1 a{
+    color: rgba(34, 11, 241, 0.952);
+    font-size: 18px;
+    margin-left: 30px;
+    background-color: rgba(232, 245, 231, 0.808); 
+
+}
+
+}
+section.accueil2 div{
+    color: rgb(238, 11, 11);
+    font-size: 100px;
+    margin-left: auto;
+    height: 300px;
+    display: flex;
+    margin-inline: auto;
+
+    
+}
+
+/*menu de navigation*/
+
+nav.navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+    width: 400px;
+    margin-left: 40px;
+}
+
+ nav.navigation li {
+    color: white;
+    
+}
